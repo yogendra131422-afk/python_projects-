@@ -12,10 +12,10 @@ A collection of Python projects built while learning Python programming, ranging
    
 4. Employee Salary Analysis
    
+5.  Store Sales Analysis
+   
 
 ## Intermediate Level Projects
-
-1. Store Sales Analysis
 
 
 ## Advanced Level Projects
