@@ -1,0 +1,45 @@
+# Employee Salary Analysis
+# Total salary expense
+# Highest salary
+# Lowest salary
+# Average salary
+# Count salaries above average
+# Print salaries above average
+
+salaries = [25000, 30000, 28000, 45000, 35000]
+
+total = 0
+count = 0
+
+highest = salaries[0]
+lowest = salaries[0]
+
+for x in salaries:
+    total = total + x
+
+    if x > highest:
+        highest = x
+
+    if x < lowest:
+        lowest = x
+
+average = total / len(salaries)
+
+print("Above Average Salaries:")
+
+for x in salaries:
+    if x > average:
+        print(x)
+        count = count + 1
+
+print()
+
+print("Total Salary =", total)
+
+print("Highest Salary =", highest)
+
+print("Lowest Salary =", lowest)
+
+print("Average Salary =", average)
+
+print("Above Average Count =", count)
