@@ -1,0 +1,78 @@
+# Mini Project: Store Sales Analysis
+# A store recorded daily sales (in units) for 10 days:
+# sales = [120, 85, 150, 90, 200, 75, 180, 110, 95, 160]
+# Tasks
+# Calculate total sales
+#.Find highest sales Find lowest sales.
+# Calculate average sales.
+# Count days with sales above average.Print all sales values above average.
+# Count:Sales below 100  @@@
+# Sales from 100 to 149
+# " Find the second highest sales value.
+# Find the difference between highest and lowest sales.
+# Count how many days had sales greater than 150.
+
+# Mini Project: Store Sales Analysis
+
+sales = [120, 85, 150, 90, 200, 75, 180, 110, 95, 160]
+
+total = 0
+
+highest = sales[0]
+lowest = sales[0]
+
+above_avg_count = 0
+below_100_count = 0
+between_100_149_count = 0
+above_150_count = 0
+
+# Total, Highest, Lowest
+
+for x in sales:
+    total = total + x
+
+    if x > highest:
+        highest = x
+
+    if x < lowest:
+        lowest = x
+
+difference = highest - lowest
+
+average = total / len(sales)
+
+print("Above Average Sales:")
+
+# Above Average Sales
+
+for x in sales:
+    if x > average:
+        print(x)
+        above_avg_count += 1
+
+
+for x in sales:
+
+    if x < 100:
+        below_100_count += 1
+
+    elif x >= 100 and x <= 149:
+        between_100_149_count += 1
+
+    else:  # x >= 150
+        above_150_count += 1
+
+print()
+print("Total Sales =", total)
+print("Highest Sales =", highest)
+print("Lowest Sales =", lowest)
+print("Difference =", difference)
+print("Average Sales =", average)
+
+print()
+print("Above Average Count =", above_avg_count)
+
+print()
+print("Sales below 100 =", below_100_count)
+print("Sales from 100 to 149 =", between_100_149_count)
+print("Sales 150 and above =", above_150_count)
