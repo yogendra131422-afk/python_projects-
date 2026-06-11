@@ -1,0 +1,42 @@
+# Expense Tracker mini project 
+# Total expenses
+# Highest expense
+# Lowest expense
+# Average expense
+# Expenses above average count
+
+expenses = [500, 200, 1000, 300, 700] 
+
+sum = 0
+highest = expenses[0]
+lowest = expenses[0]
+count = 0 
+
+for x in expenses:                 # highest 
+    sum = sum + x
+    if x > highest:
+        highest = x 
+
+for x in expenses:                 # lowest 
+    if x < lowest:
+        lowest = x
+    
+average = sum / len(expenses)      # average 
+
+for x in expenses:                 
+    if x > average:
+        print(x)
+        count = count + 1
+
+
+print("sum=",sum)
+
+print("highest=",highest)
+
+print("lowest=",lowest)
+
+print("average=",average)
+
+print("count=",count)
+
+
