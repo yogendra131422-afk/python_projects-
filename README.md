@@ -1,13 +1,23 @@
-# python_projects_to write mini level projects to pro levl proojects 
+# Python Projects
 
-  mini projects for python 
-  
-  1. Temperature Analysis
+A collection of Python projects built while learning Python programming, ranging from beginner-level mini projects to advanced projects.
 
-  2. Student Score Analysis
+## Beginner Level Projects
 
-  3. Expense Tracker
-    
-  4. Employee Salary Analysis
-    
-  5. Store Sales Analysis
+1. Temperature Analysis
+   
+2. Student Score Analysis
+   
+3. Expense Tracker
+   
+4. Employee Salary Analysis
+   
+
+## Intermediate Level Projects
+
+1. Store Sales Analysis
+
+
+## Advanced Level Projects
+
+(Coming Soon)
