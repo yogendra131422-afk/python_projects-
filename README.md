@@ -17,7 +17,7 @@ A collection of Python projects built while learning Python programming, ranging
 
 ## Intermediate Level Projects : concepts used = functions , dictoniers ,File Handling , Exception Handling
 
-6.Student Marks Analyzer project using functions .
+6. Student Marks Analyzer project using functions .
 
 
 
