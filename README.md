@@ -15,6 +15,8 @@ A collection of Python projects built while learning Python programming, ranging
 5.  Store Sales Analysis
 
 6.  Student Marks Analyzer project using functions
+
+7.  Employee Salary Management System
    
 
 ## Intermediate Level Projects : concepts used = functions , dictoniers ,File Handling , Exception Handling
