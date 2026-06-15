@@ -1,0 +1,59 @@
+def get_marks():
+    marks = []
+
+    for i in range(5):
+        mark = int(input(f"Enter Subject {i+1} Marks: "))
+        marks.append(mark)
+
+    return marks
+
+
+def calculate_total(marks):
+    total = sum(marks)
+    return total
+
+
+def calculate_average(marks):
+    average = sum(marks) / len(marks)
+    return average
+
+
+def highest_mark(marks):
+    return max(marks)
+
+
+def lowest_mark(marks):
+    return min(marks)
+
+
+def result_status(avg):
+    if avg >= 40:
+        return "PASS"
+    else:
+        return "FAIL"
+
+
+def display_result(total, avg, highest, lowest, status):
+    print("\n----- RESULT -----")
+    print("Total Marks   :", total)
+    print("Average Marks :", avg)
+    print("Highest Mark  :", highest)
+    print("Lowest Mark   :", lowest)
+    print("Status        :", status)
+
+
+# Main Program
+
+marks = get_marks()
+
+total = calculate_total(marks)
+
+avg = calculate_average(marks)
+
+highest = highest_mark(marks)
+
+lowest = lowest_mark(marks)
+
+status = result_status(avg)
+
+display_result(total, avg, highest, lowest, status)
