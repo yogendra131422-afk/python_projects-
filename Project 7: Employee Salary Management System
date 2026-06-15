@@ -1,0 +1,67 @@
+def get_salaries():
+    salaries = []
+
+    for i in range(5):
+        salary = int(input(f"Enter Salary of Employee {i+1}: "))
+        salaries.append(salary)
+
+    return salaries
+
+
+def calculate_total(salaries):
+    return sum(salaries)
+
+
+def calculate_average(salaries):
+    average = sum(salaries) / len(salaries)
+    return average
+
+
+def find_highest_salary(salaries):
+    return max(salaries)
+
+
+def find_lowest_salary(salaries):
+    return min(salaries)
+
+
+def employee_count(salaries):
+    return len(salaries)
+
+
+def salary_status(avg):
+    if avg >= 40000:
+        return "High Salary Company"
+    elif avg >= 30000:
+        return "Medium Salary Company"
+    else:
+        return "Low Salary Company"
+
+
+def display_report(total, average, highest, lowest, count, status):
+    print("\n----- EMPLOYEE SALARY REPORT -----")
+    print("Total Salary    :", total)
+    print("Average Salary  :", average)
+    print("Highest Salary  :", highest)
+    print("Lowest Salary   :", lowest)
+    print("Employee Count  :", count)
+    print("Company Status  :", status)
+
+
+# Main Program
+
+salaries = get_salaries()
+
+total = calculate_total(salaries)
+
+average = calculate_average(salaries)
+
+highest = find_highest_salary(salaries)
+
+lowest = find_lowest_salary(salaries)
+
+count = employee_count(salaries)
+
+status = salary_status(average)
+
+display_report(total, average, highest, lowest, count, status)
