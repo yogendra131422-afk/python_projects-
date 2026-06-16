@@ -21,7 +21,10 @@ A collection of Python projects built while learning Python programming, ranging
 
 ## Intermediate Level Projects : concepts used = functions , dictoniers ,File Handling , Exception Handling
 
-8.  Contact Book Project 
+8.  Contact Book Project
+
+9. STUDENT MANAGEMENT SYSTEM project ( using functions and dictories and loops concepts ) 
+
 
 
 
