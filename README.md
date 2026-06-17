@@ -3,9 +3,10 @@
 A collection of Python projects built while learning Python programming, ranging from beginner-level mini projects to advanced projects.
 
 
-## Beginner Level Projects : concepts used = loops , arrays ,list , tuple, strings , string functions ,functions
 
-1. Temperature Analysis
+## Beginner Level mini Projects : concepts used = loops , arrays ,list , tuple, strings , string functions ,functions
+
+1. Temperature Analysis 
    
 2. Student Score Analysis
    
@@ -13,21 +14,29 @@ A collection of Python projects built while learning Python programming, ranging
    
 4. Employee Salary Analysis
    
-5.  Store Sales Analysis
+6.  Store Sales Analysis
 
-6.  Student Marks Analyzer project using functions
+7.  Student Marks Analyzer project using functions
 
-7.  Employee Salary Management System
+8.  Employee Salary Management System
 
-   
-## Intermediate level Projects : concepts used = functions , dictoniers ,File Handling , Exception Handling
+
+ 
+## Intermediate begginner level Projects : concepts used = functions , dictoniers ,loops
 
 8.  Contact Book Project
 
-9. STUDENT MANAGEMENT SYSTEM project ( using functions and dictories and loops concepts )
+9. STUDENT MANAGEMENT SYSTEM project ( using functions and dictoriers and loops concepts )
 
-10. EMPLOYEE MANAGEMENT SYSTEM project ( using functions and dictonies and loops concepts )
+10. EMPLOYEE MANAGEMENT SYSTEM project ( using functions and dictoniers and loops concepts )
 
+11. INVENTORY MANAGEMENT SYSTEM project  ( using functions and dictooniers and loops concepts )
+
+
+
+
+# Intermediate advanced level Projects : concepts used = file handiling , Exception Handling , functions , dictoniers ,loops
+(coming soon ) 
 
 
 
